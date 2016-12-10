@@ -1,0 +1,980 @@
+
+body{
+	margin-top: 25px;
+	height: 100%;
+	background-color: #3C3C3C;
+	overflow: hidden;
+
+}
+html{
+	 height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+.navClass{
+	margin-bottom: 0px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 90px;
+    
+}
+#adjustingNav{
+ padding-right: 36px;
+    padding-left: 36px; 
+    border-left: 1px solid rgba(204, 204, 204, 0.12);
+}
+#adjustingNavHome{
+ padding-right: 36px;
+    padding-left: 36px; 
+    border-left: 1px solid rgba(204, 204, 204, 0.12);
+}
+.borderRight{
+	border-right: 1px solid rgba(204, 204, 204, 0.12);
+}
+#adjustingNavSkillOnly{
+	 padding-right: 38px;
+    padding-left: 38px; 
+}
+a.bold.alignCenter{
+	 padding-top: 27px;
+}
+.padTop20{
+}
+
+.alignCenter{
+text-align:center;
+	padding-top: 16px;
+
+}
+.bold{
+	font-weight: bold;
+}
+.eventBold{
+	font-weight: bold;
+}
+.noRightPadding{
+	padding-right: 0px;
+}
+.noLeftPadding{
+	padding-left: 0px;
+}
+.col-md-4 {
+padding-right: 0px;
+}
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+.textCenter{
+   text-align: center;   
+}
+.leftSidePanel{
+	padding-left: 100px;
+	background-color: #555C70;
+	height: 100vh;
+}
+
+.listStyleNone{
+	list-style-type:none;
+	padding-left: 0px;
+
+}
+#socialBtnsDiv ul li{
+	display: inline;
+}
+
+#homeItemFeatureDiv{
+	padding-left: 40px;
+	color: white;
+	
+}
+.homeItemFeatureHeading{
+	font-weight: bold;
+	margin-top: 0px;	
+}
+#rightPanelDiv{
+	background-color: white;
+}
+.headerSidePanel{
+border-bottom: 0px;
+padding-top: 50px;
+}
+#headerTopPanelMobile{
+	display: none;
+}
+.hide{
+	display: none;
+}
+.listItem{
+	color: white;
+	font-size: 130%;
+}
+
+.itemColor{
+	color: white;
+}
+.navItemsHeading{
+	font-size: 120%;
+	font-weight: bold;
+}
+#navItems{
+	padding-left: 24px;
+}
+
+#testUL{
+	display: flex;
+}
+.homeText{
+	padding-left: 40px;
+	color: white;
+}
+.homeContent{
+	padding-top: 70px;
+	height: 100vh;
+	margin: 0px;
+	background-color: #00BDBD;
+	max-height: 100vh;
+    overflow-y: scroll;
+}
+#myImg{
+	 width: 278px;
+	 height: 341px;
+}
+
+
+#panelHeading{
+	background-color: #00BDBD;
+	padding-left: 40px;
+}
+.padding_left_40{
+	padding-left: 40px;
+}
+.glyphicon {
+    font-size: 20px;
+}
+#headingText{
+	color: white;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+li#expNavItem a.bold.alignCenter{
+	padding-right: 20px;
+	padding-left: 20px;
+	border-left: 1px solid rgba(204, 204, 204, 0.12);
+
+}
+li#skillsNavItem a.bold.alignCenter{
+	padding-right: 17px;
+	padding-left: 17px;
+	border-left: 1px solid rgba(204, 204, 204, 0.12);
+}
+#expDuration{
+	color: #D8D9DB;
+	font-size: 150%;
+	font-weight: bold;
+}
+#expNamePlace{
+	font-weight: bold;
+	font-size: 120%;
+	color:#626262;
+}
+#expPanelBody{
+	height: 610px;
+}
+#expCompanyName{
+	font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+	border-bottom-style: outset;
+    border-color: #00BDBD;
+}
+#expCompanyDesc{
+	color:#626262;
+}
+.prjctName{
+	font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+	border-bottom-style: outset;
+    border-color: #00BDBD;
+}
+#projPanelbody{
+	max-height: 70vh;
+    overflow-y: scroll;
+    margin-bottom: 48px;
+}
+.prjctDesc{
+	color:#626262;
+}
+
+#projContent1{
+	
+	border-bottom: 3px;
+	border-color: black;
+}
+
+#projContent2{
+	border-bottom: 3px;
+	border-color: black;
+	background-color: #F7F8FA;
+}
+#projContent3{
+	border-bottom: 3px;
+	border-color: black;
+}
+.padding_top_bottom_20{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#skillsTechnical{
+	font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+}
+#skillsPanelBody{
+	max-height: 70vh;
+    overflow-y: scroll;
+    margin-bottom: 48px;
+}
+.skillContent{
+	padding-left: 10px;
+}
+.skillContentPadding20L{
+	padding-left: 20px;
+}
+.listMobile{
+		display: none;
+
+	}
+	.listDesktop{
+		display: block;
+	}
+
+.progress-bar{
+background-color: #616161;
+font-size: 20px;
+}
+
+#percentNo{
+	
+    float: right;
+    color: #c3c5c9;
+   	font: normal 500 20px Raleway,sans-serif;
+}
+.eduListStyleIcon{
+
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 12px;
+}
+.glyphicon-check{
+	color: #00BDBD;
+	 font-size: 20px;
+
+}
+
+.eduDuration{
+	color: #D8D9DB;
+	font-size: 150%;
+	font-weight: bold;
+}
+.eduNamePlace{
+	font-weight: bold;
+	font-size: 120%;
+	color:#626262;
+}
+
+.eduSchoolName{
+		font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+	border-bottom-style: outset;
+    border-color: #00BDBD;
+}
+#eduPanelBody{
+	max-height: 70vh;
+	overflow-y: scroll;
+	margin-bottom: 48px; 
+}
+#eduContent1{
+	border-bottom-color: #F0F1F5;
+	 border-bottom-style: solid;
+	 border-width: 0.5px;
+	padding-left: 40px;
+}
+#eduContent2{
+	padding-top: 20px;
+	padding-left: 40px;
+	border-bottom-color: #F0F1F5;
+	border-bottom-style: solid;
+	border-width: 0.5px;
+}
+#eduContent3{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+#companyIconDesktop{
+		display: block;
+	}
+#companyIconMobile{
+		display: none;
+}
+
+#mapDiv{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
+#contactPanelBody{
+	padding-left: 40px;
+	height: 610px;
+}
+#contactMaps{
+	position: relative;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0; 
+width:100%;
+height: 100%;	
+}
+#contactTxtArea{
+	border-radius: 25px;
+}
+#contactSendMessage{
+	font-weight: bold;
+	border-radius: 25px;
+	border-color: #00BDBD
+}
+#contactSendMessage:hover{
+
+	background: #00BDBD;
+	color: white;
+	transition: 1s background-color;
+}
+#contactListDiv	ul li{
+
+	display: inline;
+	margin-right:45px;
+}
+
+.to-left {
+	transform:translateX(-100px); 
+     transition-duration: 1.0s;
+}
+
+.to-next {
+    padding-left: 80px; !important
+    
+}
+.verticalLine {
+     border-left: 1px solid rgba(204, 204, 204, 0.19);
+}
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+		body{
+			margin-top: 40px;
+		}
+
+		#adjustingNav{
+		 padding-right: 12px;
+		    padding-left: 12px; 
+		}
+
+		li#skillsNavItem a.bold.alignCenter{
+			padding-right: 11px;
+			padding-left: 11px;
+		}
+		li#expNavItem a.bold.alignCenter{
+			padding-right: 11px;
+			padding-left: 12px;
+		}
+		#adjustingNavHome{
+			 padding-right: 20px;
+		    padding-left: 20px;
+		}
+	}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) and (orientation:portrait) {
+
+
+	body{
+			margin-top: 0px;
+			overflow: scroll;
+			position: relative;
+		}
+		
+		#adjustingNav{
+		 padding-right: 0px;
+		    padding-left: 0px; 
+		    padding-top: 0px;
+		    height: 64px
+		}
+
+		li#skillsNavItem a.bold.alignCenter{
+			padding-right: 0px;
+			padding-left: 0px;
+			 padding-top: 0px;
+			 height: 64px
+		}
+		li#expNavItem a.bold.alignCenter{
+			padding-right: 0px;
+			padding-left: 0px;
+			 padding-top: 0px;
+			 height: 64px
+		}
+		#adjustingNavHome{
+			 padding-right: 0px;
+		    padding-left: 0px;
+		     padding-top: 0px;
+		     height: 64px
+		}
+		#navItems{
+		padding-left: 0px;
+		}
+		.leftSidePanel{
+			height: 50%;
+			padding: 0px;	
+		}
+		.icon-bar{
+			background-color: white;
+		}
+		 .top-bar {
+	    transform: rotate(45deg);
+	    transform-origin: 10% 10%;
+	    
+	  }
+	  .middle-bar {
+	    opacity: 0;
+	  }
+	  .bottom-bar {
+	    transform: rotate(-45deg);
+	    transform-origin: 10% 90%;
+	  }
+	  #hambgBtn{
+	  	margin-top:0px;
+	  	margin-bottom:0px; 
+	  }
+	  .navbar-toggle{
+    background-color: #00d4d4 !important;
+		}
+	  #headerTopPanelMobile{
+	  	display: block;
+	  }
+	#divSidePanel {
+	  	display: none;
+	  }
+	ul.listStyleNone li{
+	display: inline;
+	text-align: center;
+	}
+	.itemColor{
+	text-align: center;
+	}
+	.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+	}
+	#fronSlashCol{
+		color: white;
+	}
+	#cpyrtTxt{
+		display: none;
+	}
+	#socialBtnsDiv{
+		margin: auto;
+    	width: 50%;
+	}
+    h1{
+    	font-size: 34px;
+    }
+    #homeItemFeatureDiv{
+    	
+    	padding-left: 45px;
+    	padding-right: 45px;
+    }
+    .homeText{
+    	
+    	padding-left: 45px;
+    	padding-right: 45px;
+    	font-size: 20px;
+    }
+   .allNavItemsHide{
+  	min-height: 0.1px;
+  	border: none;
+   }
+   #projPanelbody{
+  	
+    margin: 0px;
+    padding: 20px;	
+
+	}
+	#panelHeading
+	{
+		padding: 20px;
+	}
+	#expPanelBody{
+		padding: 30px;
+	}
+	#skillsPanelBody{
+    overflow-y: none;
+    margin: 0px;
+    padding: 20px;
+	}
+	.skillContentPadding20L
+	{
+		padding-left: 10px;
+	}
+	#eduContent1 {padding:20px;}
+	#eduContent2 {padding:20px;}
+	#eduContent3 {padding:20px;}
+
+	#contactPanelBody{
+		padding: 20px;
+	}
+	.homeContent{
+		padding-top: 20px;
+
+	}
+	#myImg{
+	 margin-left: 20px;
+    padding: 10px;
+    width: 340px;
+    height: 402px;
+
+	}
+	#companyIconDesktop{
+		display: none;
+	}
+	#companyIconMobile{
+		display: block;
+	}
+	#companyIconDesktop{
+		display: none
+	}
+	#companyIconMobile{
+		display: block;
+	}
+	.listMobile{
+		display: block;
+	}
+	.listDesktop{
+		display: none;
+	}
+	.padLft30{
+		padding-left: 30px;
+	}
+	#eduPanelBody{
+		margin-bottom: 0px;
+		
+	}
+	#contactPanelBody{
+		height: 500px;
+	}
+}
+
+	
+
+/* Landscape phones and portrait tablets */
+	@media (max-width: 768px) {
+
+	body{
+			margin-top: 0px;
+			overflow: auto;
+			position: relative;
+		}
+		
+		
+		#adjustingNav{
+		 padding-right: 0px;
+		    padding-left: 0px; 
+		    padding-top: 0px;
+		    height: 64px
+		}
+
+		li#skillsNavItem a.bold.alignCenter{
+			padding-right: 0px;
+			padding-left: 0px;
+			 padding-top: 0px;
+			 height: 64px
+		}
+		li#expNavItem a.bold.alignCenter{
+			padding-right: 0px;
+			padding-left: 0px;
+			 padding-top: 0px;
+			 height: 64px
+		}
+		#adjustingNavHome{
+			 padding-right: 0px;
+		    padding-left: 0px;
+		     padding-top: 0px;
+		     height: 64px
+		}
+		#navItems{
+		padding-left: 0px;
+		}
+		.leftSidePanel{
+			height: 50%;
+			padding: 0px;	
+		}
+		.icon-bar{
+			background-color: white;
+		}
+		 .top-bar {
+	    transform: rotate(45deg);
+	    transform-origin: 10% 10%;
+	    
+	  }
+	  #rightPanelDiv{
+	  	overflow: auto;
+	  }
+	  .middle-bar {
+	    opacity: 0;
+	  }
+	  .bottom-bar {
+	    transform: rotate(-45deg);
+	    transform-origin: 10% 90%;
+	  }
+	  #hambgBtn{
+	  	margin-top:0px;
+	  	margin-bottom:0px; 
+	  }
+	  .navbar-toggle{
+    background-color: #00d4d4 !important;
+		}
+	  #headerTopPanelMobile{
+	  	display: block;
+	  }
+	#divSidePanel {
+	  	display: none;
+	  }
+	ul.listStyleNone li{
+	display: inline;
+	text-align: center;
+	}
+	.itemColor{
+	text-align: center;
+	}
+	.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+	}
+	#fronSlashCol{
+		color: white;
+	}
+	#cpyrtTxt{
+		display: none;
+	}
+	#socialBtnsDiv{
+		margin: auto;
+    	width: 50%;
+		
+	
+	}
+    h1{
+    	font-size: 34px;
+    }
+    #homeItemFeatureDiv{
+    	
+    	padding-left: 45px;
+    	padding-right: 45px;
+    }
+    .homeText{
+    	
+    	padding-left: 45px;
+    	padding-right: 45px;
+    	font-size: 20px;
+    }
+   .allNavItemsHide{
+  	min-height: 0.1px;
+  	border: none;
+   }
+   #projPanelbody{
+  	
+    margin: 0px;
+    padding: 20px;	
+   
+   overflow-y: auto;
+ 
+
+	}
+	#panelHeading
+	{
+		padding: 20px;
+	}
+	#expPanelBody{
+		padding: 30px;
+	}
+	#skillsPanelBody{
+    overflow-y: none;
+    margin: 0px;
+    padding: 20px;
+	}
+	.skillContentPadding20L
+	{
+		padding-left: 10px;
+	}
+	#eduContent1 {padding:20px;}
+	#eduContent2 {padding:20px;}
+	#eduContent3 {padding:20px;}
+
+	#contactPanelBody{
+		padding: 20px;
+	}
+	.homeContent{
+		padding-top: 20px;
+
+	}
+	#myImg{
+	 margin-left: 20px;
+    padding: 10px;
+    width: 340px;
+    height: 402px;
+
+	}
+	#companyIconDesktop{
+		display: none;
+	}
+	#companyIconMobile{
+		display: block;
+	}
+	#companyIconDesktop{
+		display: none
+	}
+	#companyIconMobile{
+		display: block;
+	}
+	.listMobile{
+		display: block;
+	}
+	.listDesktop{
+		display: none;
+	}
+	.padLft30{
+		padding-left: 30px;
+	}
+	#eduPanelBody{
+		margin-bottom: 0px;
+	}
+	#contactPanelBody{
+		height: 500px;
+	}
+	}
+
+/*For Ipad portrait mode*/
+@media (min-width: 768px) and (orientation : portrait) {
+ 
+
+	body{
+			margin-top:0px;
+			overflow: hidden;
+			position: relative;
+			margin: 0;
+		}
+		html{
+			 height: 100%;
+  			margin: 0px;
+  		overflow: hidden;
+		}
+		.container{
+			width:100%;
+			height: 100%;
+		}
+	.leftSidePanel{
+		height: 30%;
+	}
+	.homeContent{
+		
+		height: 794px;
+		overflow-y: none;
+		padding-top: 30px;
+	}
+		.leftSidePanel{
+			height: 50%;
+			padding: 0px;	
+		}
+		#rightPanelDiv{
+			overflow: auto;
+		}
+		.icon-bar{
+			background-color: white;
+		}
+		 .top-bar {
+	    transform: rotate(45deg);
+	    transform-origin: 10% 10%;
+	    
+	  }
+	  .middle-bar {
+	    opacity: 0;
+	  }
+	  .bottom-bar {
+	    transform: rotate(-45deg);
+	    transform-origin: 10% 90%;
+	  }
+	  #myImg{
+	  	margin: 0px;
+	  }
+	  #hambgBtn{
+	  	margin-top:0px;
+	  	margin-bottom:0px; 
+	  }
+	  .navbar-toggle{
+    background-color: #00d4d4 !important;
+		}
+	  #headerTopPanelMobile{
+	  	display: block;
+	  }
+	#divSidePanel {
+	  	display: none;
+	  }
+	ul.listStyleNone li{
+	display: inline;
+	text-align: center;
+	}
+	.itemColor{
+	text-align: center;
+	}
+	.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+	}
+	#fronSlashCol{
+		color: white;
+	}
+	#cpyrtTxt{
+		display: none;
+	}
+	#socialBtnsDiv{
+		margin: auto;
+    	width: 23%;
+	}
+    h1{
+    	font-size: 34px;
+    }
+    #companyIconDesktop{
+		display: block;
+	}
+	#companyIconMobile{
+		display: none;
+	}
+	#companyIconDesktop{
+		display: block;
+	}
+	#companyIconMobile{
+		display: none;
+	}
+     #homeItemFeatureDiv{
+    	
+    	padding-left: 45px;
+    	padding-right: 45px;
+    }
+    .homeText{
+    	
+    	padding-left: 45px;
+    	padding-right: 45px;
+    	font-size: 20px;
+    }
+   .allNavItemsHide{
+  	min-height: 0.1px;
+  	border: none;
+   }
+   #expPanelBody{
+   	height: 745px;	
+   }	
+   #projPanelbody{
+  	
+    margin: 0px;
+    padding-bottom: 730px;	
+    overflow: hidden;
+
+	}
+	#skillsPanelBody{
+		margin: 0px;
+    padding-bottom: 730px;	
+    overflow: hidden;
+	}
+.listMobile{
+		display: block;
+	}
+	.listDesktop{
+		display: none;
+	}
+	#contactPanelBody{
+		height: 745px;
+	}
+
+		.navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .allNavItems {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+		
+}
+
+/*For Nexus 7 Landscape*/
+@media screen and (min-device-width : 601px) and (max-device-width :970px) {
+ 
+		body{
+			margin-top: 40px;
+			overflow: auto;
+		}
+
+		#adjustingNav{
+		 padding-right: 12px;
+		    padding-left: 12px; 
+		}
+
+		li#skillsNavItem a.bold.alignCenter{
+			padding-right: 11px;
+			padding-left: 11px;
+		}
+		li#expNavItem a.bold.alignCenter{
+			padding-right: 11px;
+			padding-left: 12px;
+		}
+		#adjustingNavHome{
+			 padding-right: 20px;
+		    padding-left: 20px;
+		}
+
+}

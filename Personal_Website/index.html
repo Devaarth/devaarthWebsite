@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Conference Room Booking</title>
+
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+			<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+			<script src="js/jquery-3.1.0.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/events.js"></script>
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+	<body>
+
+
+		
+	<div class="container"> <!-- "container" class give fix width on all devices -->
+
+ 		 	 <div class="row">
+				<div class="col-md-12 noRightPadding noLeftPadding">
+
+					<nav class="navbar navbar-default navClass allNavItems">
+					  <div class="container-fluid">
+					    	
+					    <div class="navbar-collapse collapse" id="navItems" > 
+						    <ul class="nav navbar-nav" id="ulNavItems">
+						      <li id="homeNavItem"><a href="#" id="adjustingNavHome" class="bold alignCenter"><span class="glyphicon glyphicon-home" aria-hidden="true" id="homeText"/><br>HOME</a></li>
+
+						      <li id="expNavItem"><a href="#" class="bold alignCenter"><span class="glyphicon glyphicon-briefcase" aria-hidden="true" id="expText"/><br><div class="verticalLine"></div>EXPERIENCE</a></li>
+
+						      <li id="prjctNavItem"><a href="#" id="adjustingNav" class="bold alignCenter" ><span class="glyphicon glyphicon-tasks colorHover" aria-hidden="true" id="prjText"/><br>PROJECTS</a></li> 
+
+						      <li id="skillsNavItem"><a href="#" class="bold alignCenter"><span class="glyphicon glyphicon-tower colorHover" aria-hidden="true" id="skillText"><br>SKILLS/ACHIEVEMENTS</a></li> 
+
+						      <li id="educationNavItem"><a href="#" id="adjustingNav" class="bold alignCenter"><span class="glyphicon glyphicon-education colorHover" aria-hidden="true" id="eduText"><br>EDUCATION</a></li> 
+
+						      <li id="contactNavItem"><a href="#" id="adjustingNav" class="bold alignCenter borderRight"><span class="glyphicon glyphicon-envelope colorHover" aria-hidden="true" id="cntctText"><br>CONTACT</a></li> 
+						    </ul>
+						</div>
+				  	 </div>
+					</nav>
+
+				</div>
+			</div> 
+
+			<div class="row ">
+				<div class="col-md-4 noRightPadding noLeftPadding">
+						<div class="leftSidePanel">
+						
+							<form class="form-horizontal">
+
+							<div class="form-group" id= "divSidePanel">
+											<div class="headerSidePanel">
+											<h1 class="itemColor">Paul Rossi</h1>
+											</div>
+											<ul class="listStyleNone">
+												<li class="listItem">Web Developer</li><br>
+												<li class="listItem">Photographer</li><br>
+												<li class="listItem">Football Fan</li><br>
+											</ul>
+										</div>
+
+								<!-- Div for mobile devices -->
+								<div class="form-group" id= "headerTopPanelMobile">
+									<div class="navbar-header"> <!-- Div for Hamburger Menu -->
+								      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" id="hambgBtn">
+							                <!-- Hamburger Menu Button -->
+							                <span class="sr-only">Toggle navigation</span>
+							                <span class="icon-bar 1stbar"></span>
+							                <span class="icon-bar 2ndbar"></span>
+							                <span class="icon-bar 3rdbar"></span>
+						            	</button>
+								    </div>
+									<div>
+
+										<h1 class="itemColor" id="nameTxt">Devaarth Sharma</h1>
+									</div>
+										<div id="featureElmnt" class="center">
+											<ul class="listStyleNone">
+												<li class="listItem">Web Developer</li>&nbsp; <span id="fronSlashCol">/</span>
+												<li class="listItem">Photographer</li><span id="fronSlashCol">&nbsp; /</span>
+												<li class="listItem">Football Fan</li>
+											</ul>
+										</div>
+									</div>
+
+
+										<div class="form-group " id="socialBtnsDiv">
+											<ul class="social-icons listStyleNone">
+												<li><a href="https://linkedin.com/" target="_blank" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://twitter.com/" target="_blank" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a></li>
+												
+												<li><a href="https://google.com/" target="_blank" class="btn btn-social-icon btn-google"><i class="fa fa-google"></i></a></li>
+												<li><a href="https://www.github.com/" target="_blank" class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a></li>
+											</ul>
+										</div>
+
+										<div class="form-group">
+											<footer>
+											 <p class="itemColor" id="cpyrtTxt">© Rossi, 2015. All rights reserved.</p>
+											</footer>
+										</div>
+							</form>
+	 					</div>
+	 			</div>
+	 				
+
+	 				<div class="col-md-8 noLeftPadding noRightPadding" id="rightPanelDiv">
+	 				</div>
+
+	 	</div>
+	</div>
+
+	<!-- Home Panel Starts Here -->
+	<div class="panel panel-info" id="homePanel" >
+	 						<div class="row homeContent homeTest"><!-- Adding another Boostrap Row inside this column -->
+	 							<div class="col-md-6 col-sm-6 col-xs-12">
+				 						<form class="form-horizontal">
+
+													<div class="form-group" id="homeItemFeatureDiv">
+
+														<h2 class="homeItemFeatureHeading">SAVY</h2>
+														<h2 class="homeItemFeatureHeading">CREATIVE</h2>
+														<h2 class="homeItemFeatureHeading">DETERMINED</h2>
+													
+													</div>
+
+													<div class="form-group">
+														
+														 <p class="homeText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+														
+													</div>
+										</form>	
+								</div>	
+
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="form-group">
+										<img src="img/home-image.jpg" class="img-thumbnail" alt="Home Image" id="myImg">
+									</div>
+								</div>		
+
+	 					</div><!-- Row Div ends here -->
+						</div> 
+						<!-- Home panel Ends here -->
+
+			<!--Work Experience Panel Starts-->
+		 				<div class="panel panel-default" id="expPanel">
+		 					
+							  <div class="panel-heading" id="panelHeading">
+							  	<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+	 							<span id="headingText">Experience</span>
+	 						  </div>
+
+							  <div class="panel-body padding_left_40" id="expPanelBody">
+
+								<div class="row expContent">
+									<div class="col-md-3 col-sm-3 col-xs-12">
+				 						<div class="form-group">
+				 							<p id="expDuration">Jan 2006 - Now</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<p id="expNamePlace">Paul Rossi<br>
+											   Santa Monica, USA
+											</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<img src="img/wip.jpg" class="img-circle" alt="TCS Logo" width="100px" height="100px">
+				 						</div>
+	 								</div>
+
+	 								<div class="col-md-9 col-sm-9 col-xs-12">
+				 						<div class="form-group">
+				 							<p id="expCompanyName">Freelance Developer and Photographer</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<p id="expCompanyDesc">I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.</p>
+				 						</div>
+	 								</div>
+								</div>
+							  </div>
+						</div>
+						<!--Work Experience Panel Ends-->
+
+						<!-- Project Panel Starts here -->
+						<div class="panel panel-default" id="projPanel">
+		 					
+							  	<div class="panel-heading padding_left_40" id="panelHeading">
+								  	<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+		 							<span id="headingText">Project</span>
+	 						  	</div>
+
+							  	<div class="panel-body" id="projPanelbody">
+
+							  		<div class="row padding_top_bottom_20" id="projContent1">
+										<div class="col-md-3 col-sm-3 col-xs-12">
+											<div class="form-group">
+				 								<img src="img/wip.jpg" class="img-circle" alt="TCS Logo" width="150px" height="150px">
+				 							</div>
+										</div>
+
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<div class="form-group">
+				 								<p class="prjctName">Project Name 1</p>
+				 							</div>
+
+				 							<div class="form-group">
+				 								<p class="prjctDesc">I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.</p>
+				 							</div>
+										</div>
+									</div>
+
+									<div class="row padding_top_bottom_20" id="projContent2">
+
+										
+										<div class="col-md-3 col-sm-3 col-xs-12" id="companyIconMobile">
+												<div class="form-group">
+					 								<img src="img/wip.jpg" class="img-circle" alt="TCS Logo" width="150px" height="150px">
+					 							</div>
+											</div>
+										
+
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<div class="form-group">
+				 								<p class="prjctName">Project Name 2</p>
+				 							</div>
+
+				 							<div class="form-group">
+				 								<p class="prjctDesc">I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.</p>
+				 							</div>
+										</div>
+										
+											<div class="col-md-3 col-sm-3 col-xs-12" id="companyIconDesktop">
+												<div class="form-group">
+					 								<img src="img/wip.jpg" class="img-circle" alt="TCS Logo" width="150px" height="150px">
+					 							</div>
+											</div>
+										
+									</div>
+
+									<div class="row padding_top_bottom_20" id="projContent3">
+										<div class="col-md-3 col-sm-3 col-xs-12">
+											<div class="form-group">
+				 								<img src="img/wip.jpg" class="img-circle" alt="TCS Logo" width="150px" height="150px">
+				 							</div>
+										</div>
+
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<div class="form-group">
+				 								<p class="prjctName">Project Name 1</p>
+				 							</div>
+
+				 							<div class="form-group">
+				 								<p class="prjctDesc">I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.I create websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. In addition to web development and online marketing, I also offer commercial photography.</p>
+				 							</div>
+										</div>
+									</div>
+								</div>	
+						</div>	
+						<!-- Project Panel Ends here -->
+
+						<!-- Skills Panel Starts here -->
+					<div class="panel panel-default" id="skillsPanel">
+		 					
+							  <div class="panel-heading" id="panelHeading">
+							  	<span class="glyphicon glyphicon-tower" aria-hidden="true"></span>
+	 							<span id="headingText">Skills/Achievements</span>
+	 						  </div>
+
+							  <div class="panel-body padding_left_40" id="skillsPanelBody">
+
+								<div class="row expContent">
+									<div class="col-md-12 col-sm-12 col-xs-12">
+
+				 						<div class="form-group">
+				 							<p id="skillsTechnical">Technical</p>
+				 						</div>
+				 						
+				 					</div>
+				 				</div>
+
+								<div class="row skillContent">
+
+				 					<div class="col-md-2 col-sm-2 col-xs-2">
+										<p class="skillsLng">PHP</p>
+									</div>
+				 					<div class="col-md-10 col-sm-10 col-xs-10 padLft30">
+				 						<div class="form-group">
+					 						<div class="progress">
+											  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+											   90%
+											  </div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-2 col-xs-2">
+										<p class="skillsLng">JavaScript</p>
+									</div>
+				 					<div class="col-md-10 col-sm-10 col-xs-10 padLft30">
+				 						<div class="form-group">
+					 						<div class="progress">
+											  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+											   90%
+											  </div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-2 col-xs-2">
+										<p class="skillsLng">HTML5</p>
+									</div>
+				 					<div class="col-md-10 col-sm-10 col-xs-10 padLft30">
+				 						<div class="form-group">
+					 						<div class="progress">
+											  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+											   90%
+											  </div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-2 col-xs-2">
+										<p class="skillsLng">CSS3</p>
+									</div>
+				 					<div class="col-md-10 col-sm-10 col-xs-10 padLft30">
+				 						<div class="form-group">
+					 						<div class="progress">
+											  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+											   90%
+											  </div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="col-md-2 col-sm-2 col-xs-2">
+										<p class="skillsLng">jQuery</p>
+									</div>
+				 					<div class="col-md-10 col-sm-10 col-xs-10 padLft30">
+				 						<div class="form-group">
+					 						<div class="progress">
+											  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+											   60%
+											  </div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="col-md-2 col-sm-2 col-xs-2">
+										<p class="skillsLng">AngularJS</p>
+									</div>
+				 					<div class="col-md-10 col-sm-10 col-xs-10 padLft30">
+				 						<div class="form-group">
+					 						<div class="progress">
+											  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											   80%
+											  </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<hr>
+									<div class="row expContent">
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+					 						<div class="form-group">
+					 							<p id="skillsTechnical">Achievements</p>
+					 						</div>
+					 						
+					 					</div>
+				 					</div>
+				 					<div class="row skillContentPadding20L">
+				 						<div class="form-group skillContent">
+				 							<ul class="listStyleNone listDesktop" >
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 							</ul>
+				 							<ul class="listStyleNone listMobile" >
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 							</ul>
+				 						</div>
+				 					</div>
+
+									<hr>
+									<div class="row expContent">
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+					 						<div class="form-group">
+					 							<p id="skillsTechnical">Others</p>
+					 						</div>
+					 						
+					 					</div>
+				 					</div>
+				 					<div class="row skillContentPadding20L">
+				 						<div class="form-group skillContent">
+				 							<ul class="listStyleNone listDesktop">
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+				 							</ul>
+				 							<ul class="listStyleNone listMobile">
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 								<li class="eduListStyleIcon1"><i class="glyphicon glyphicon-check"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li><br>
+				 							</ul>
+				 						</div>
+				 					</div>
+
+
+								
+							  </div>
+						</div>
+						<!-- Skills Panel Ends here -->
+
+						<!-- Education Panel Start here -->
+						<div class="panel panel-default" id="eduPanel">
+		 					
+							  <div class="panel-heading" id="panelHeading">
+							  	<span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+	 							<span id="headingText">Education</span>
+	 						  </div>
+
+							  <div class="panel-body" id="eduPanelBody">
+
+								<div class="row" id="eduContent1">
+									<div class="col-md-3 col-sm-3 col-xs-12">
+				 						<div class="form-group">
+				 							<p class="eduDuration">1999 - 2000</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<p class="eduNamePlace">St Marry's<br>
+											   Santa Monica, USA
+											</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<img src="img/wip.jpg" class="img-thumbnail" alt="TCS Logo" width="100px" height="100px">
+				 						</div>
+	 								</div>
+
+	 								<div class="col-md-9 col-sm-9 col-xs-12">
+				 						<div class="form-group">
+				 							<p class="eduSchoolName">Schooling</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<ul class="listStyleNone listDesktop">
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text1</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text2</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text3</li>
+				 							</ul>
+				 							<ul class="listStyleNone listMobile">
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text1</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text2</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text3</li>
+				 							</ul>
+				 						</div>
+	 								</div>
+								</div>
+
+								<div class="row" id="eduContent2"> 
+									<div class="col-md-3 col-sm-3 col-xs-12">
+				 						<div class="form-group">
+				 							<p class="eduDuration">1999 - 2000</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<p class="eduNamePlace">St Marry's<br>
+											   Santa Monica, USA
+											</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<img src="img/wip.jpg" class="img-thumbnail" alt="TCS Logo" width="100px" height="100px">
+				 						</div>
+	 								</div>
+
+	 								<div class="col-md-9 col-sm-9 col-xs-12">
+				 						<div class="form-group">
+				 							<p class="eduSchoolName">Schooling</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<ul class="listStyleNone listDesktop">
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text1</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text2</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text3</li>
+				 							</ul>
+				 							<ul class="listStyleNone listMobile">
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text1</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text2</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text3</li>
+				 							</ul>
+				 						</div>
+	 								</div>
+								</div>
+
+								<div class="row" id="eduContent3">
+									<div class="col-md-3 col-sm-3 col-xs-12">
+				 						<div class="form-group">
+				 							<p class="eduDuration">1999 - 2000</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<p class="eduNamePlace">St Marry's<br>
+											   Santa Monica, USA
+											</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<img src="img/wip.jpg" class="img-thumbnail" alt="TCS Logo" width="100px" height="100px">
+				 						</div>
+	 								</div>
+
+	 								<div class="col-md-9 col-sm-9 col-xs-12">
+				 						<div class="form-group">
+				 							<p class="eduSchoolName">Schooling</p>
+				 						</div>
+
+				 						<div class="form-group">
+				 							<ul class="listStyleNone listDesktop">
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text1</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text2</li>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text3</li>
+				 							</ul>
+				 							<ul class="listStyleNone listMobile">
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text1</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text2</li><br>
+				 								<li class="eduListStyleIcon"><i class="glyphicon glyphicon-check"></i> Sample text3</li>
+				 							</ul>
+				 						</div>
+	 								</div>
+								</div>
+
+							  </div>
+						</div>
+						<!-- Education Panel Ends here -->
+
+
+						<!-- Contact Me Panel Starts here -->
+						<div class="panel panel-default" id="contactPanel">
+		 					
+							  <div class="panel-heading" id="panelHeading">
+							  	<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+	 							<span id="headingText">Contact</span>
+	 						  </div>
+
+	 						  <div class="panel-body" id="contactPanelBody">
+
+
+	 						  	<div class="row">
+									<div class="col-md-6 col-sm-6 col-xs-12" >
+										<div class="form-group">
+		 						  			<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1"style="border-radius: 25px;">
+		 						  		</div>
+		 						  	</div>
+		 						  	<div class="col-md-6 col-sm-6 col-xs-12" >
+		 						  		<div class="form-group">
+		 						  			<input type="email" class="form-control" placeholder="Email " aria-describedby="basic-addon1" style="border-radius: 25px;">
+		 						  		</div>
+		 						  	</div>
+		 						  	<div class="col-md-12 col-sm-12 col-xs-12" >
+										 <div class="form-group">
+		 						  		 	<textarea class="form-control" rows="5" id="contactTxtArea"></textarea>
+		 						  		 </div>
+		 						  	</div>
+
+	 						  	</div>
+
+	 						  	<div class="row">
+									<div class="col-md-12 col-sm-12 col-xs-12" >
+										 <div class="form-group">
+		 						  		 	<button type="button" class="btn btn-default" id="contactSendMessage">Send Message</button>
+		 						  		 </div>
+		 						  	</div>
+	 						  	</div>
+
+	 						  	<div class="row">
+									<div class="col-md-12 col-sm-12 col-xs-12" >
+										 <div class="form-group" id="contactListDiv">
+
+		 						  		 	<ul class="listStyleNone listDesktop">	
+		 						  		 		<li style="font-size: 20px"><span class="fa-stack fa-lg">
+													  <i class="fa fa-circle fa-stack-2x"></i>
+													  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+													</span><span>contact@rossi.com</span>
+												</li>
+
+												<li style="font-size: 20px"><span class="fa-stack fa-lg">
+													  <i class="fa fa-circle fa-stack-2x"></i>
+													  <i class="fa fa-phone fa-stack-1x fa-inverse"></i></span> <span>(541) 754-3010</span>
+												</li>
+
+											  <li style="font-size: 18px"><span class="fa-stack fa-lg">
+												  <i class="fa fa-circle fa-stack-2x"></i>
+												  <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i></span> <span>Santa Monica, CA</span>
+												</li>
+		 						  		 	</ul>
+
+		 						  		 	<ul class="listStyleNone listMobile">	
+		 						  		 		<li style="font-size: 20px"><span class="fa-stack fa-lg">
+													  <i class="fa fa-circle fa-stack-2x"></i>
+													  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+													</span><span>contact@rossi.com</span>
+												</li><br>
+
+												<li style="font-size: 20px"><span class="fa-stack fa-lg">
+													  <i class="fa fa-circle fa-stack-2x"></i>
+													  <i class="fa fa-phone fa-stack-1x fa-inverse"></i></span> <span>(541) 754-3010</span>
+												</li><br>
+
+											  <li style="font-size: 18px"><span class="fa-stack fa-lg">
+												  <i class="fa fa-circle fa-stack-2x"></i>
+												  <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i></span> <span>Santa Monica, CA</span>
+												</li>
+		 						  		 	</ul>
+		 						  		 </div>
+		 						  	</div>
+
+	 						  	</div>
+
+	 						  </div>
+	 					</div>	
+	 					<!-- Contact Me Panel Ends here -->
+			
+
+	</body>
+
+</html>

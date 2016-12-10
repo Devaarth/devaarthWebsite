@@ -1,0 +1,357 @@
+
+body{
+	margin-top: 25px;
+	height: 100%;
+	background-color: yellow;
+}
+html{
+	 height: 100%;
+  margin: 0px;
+  
+}
+.navClass{
+	margin-bottom: 0px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 90px;
+    
+}
+#adjustingNav{
+ padding-right: 36px;
+    padding-left: 36px; 
+    border-left: 1px solid rgba(204, 204, 204, 0.12);
+}
+.borderRight{
+	border-right: 1px solid rgba(204, 204, 204, 0.12);
+}
+#adjustingNavSkillOnly{
+	 padding-right: 38px;
+    padding-left: 38px; 
+}
+a.bold.alignCenter{
+	 padding-top: 27px;
+}
+.padTop20{
+}
+
+.alignCenter{
+text-align:center;
+	padding-top: 16px;
+
+}
+.bold{
+	font-weight: bold;
+}
+.eventBold{
+	font-weight: bold;
+}
+.noRightPadding{
+	padding-right: 0px;
+}
+.noLeftPadding{
+	padding-left: 0px;
+}
+.col-md-4 {
+padding-right: 0px;
+}
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+.textCenter{
+   text-align: center;   
+}
+.leftSidePanel{
+	padding-left: 100px;
+	background-color: #555C70;
+	height: 100vh;
+}
+
+.listStyleNone{
+	list-style-type:none;
+	padding-left: 0px;
+
+}
+#socialBtnsDiv ul li{
+	display: inline;
+}
+
+#homeItemFeatureDiv{
+	padding-left: 40px;
+	color: white;
+	
+}
+.homeItemFeatureHeading{
+	font-weight: bold;
+	margin-top: 0px;	
+}
+#rightPanelDiv{
+	background-color: white;
+}
+.headerSidePanel{
+border-bottom: 0px;
+padding-top: 50px;
+}
+
+.listItem{
+	color: white;
+	font-size: 130%;
+}
+
+.itemColor{
+	color: white;
+}
+.navItemsHeading{
+	font-size: 120%;
+	font-weight: bold;
+}
+#navItems{
+	padding-left: 24px;
+}
+
+#testUL{
+	display: flex;
+}
+.homeText{
+	padding-left: 40px;
+	color: white;
+}
+.homeContent{
+	padding-top: 70px;
+	height: 100vh;
+	margin: 0px;
+	background-color: #00BDBD;
+	max-height: 100vh;
+    overflow-y: scroll;
+}
+#myImg{
+	 width: 278px;
+	 height: 341px;
+}
+
+
+#panelHeading{
+	background-color: #00BDBD;
+	padding-left: 40px;
+}
+.padding_left_40{
+	padding-left: 40px;
+}
+.glyphicon {
+    font-size: 20px;
+}
+#headingText{
+	color: white;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+li#expNavItem a.bold.alignCenter{
+	padding-right: 20px;
+	padding-left: 20px;
+	border-left: 1px solid rgba(204, 204, 204, 0.12);
+
+}
+li#skillsNavItem a.bold.alignCenter{
+	padding-right: 17px;
+	padding-left: 17px;
+	border-left: 1px solid rgba(204, 204, 204, 0.12);
+}
+#expDuration{
+	color: #D8D9DB;
+	font-size: 150%;
+	font-weight: bold;
+}
+#expNamePlace{
+	font-weight: bold;
+	font-size: 120%;
+	color:#626262;
+}
+#expPanelBody{
+	height: 575px;
+}
+#expCompanyName{
+	font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+	border-bottom-style: outset;
+    border-color: #00BDBD;
+}
+#expCompanyDesc{
+	color:#626262;
+}
+.prjctName{
+	font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+	border-bottom-style: outset;
+    border-color: #00BDBD;
+}
+#projPanelbody{
+	max-height: 70vh;
+    overflow-y: scroll;
+    margin-bottom: 40px;
+}
+.prjctDesc{
+	color:#626262;
+}
+
+#projContent1{
+	
+	border-bottom: 3px;
+	border-color: black;
+}
+
+#projContent2{
+	border-bottom: 3px;
+	border-color: black;
+	background-color: #F7F8FA;
+}
+#projContent3{
+	border-bottom: 3px;
+	border-color: black;
+}
+.padding_top_bottom_20{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#skillsTechnical{
+	font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+}
+#skillsPanelBody{
+	max-height: 70vh;
+    overflow-y: scroll;
+    margin-bottom: 40px;
+}
+.skillContent{
+	padding-left: 10px;
+}
+.skillContentPadding20L{
+	padding-left: 20px;
+}
+
+.progress-bar{
+background-color: #616161;
+font-size: 20px;
+
+
+}
+.progress{
+
+}
+
+#percentNo{
+	
+    float: right;
+    color: #c3c5c9;
+   	font: normal 500 20px Raleway,sans-serif;
+}
+.eduListStyleIcon{
+
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 12px;
+}
+.glyphicon-check{
+	color: #00BDBD;
+	 font-size: 20px;
+
+}
+
+.eduDuration{
+	color: #D8D9DB;
+	font-size: 150%;
+	font-weight: bold;
+}
+.eduNamePlace{
+	font-weight: bold;
+	font-size: 120%;
+	color:#626262;
+}
+
+.eduSchoolName{
+		font-weight: bold;
+	font-size: 130%;
+	color:#626262;
+	border-bottom-style: outset;
+    border-color: #00BDBD;
+}
+#eduPanelBody{
+	max-height: 70vh;
+	overflow-y: scroll;
+	margin-bottom: 40px; 
+}
+#eduContent1{
+	border-bottom-color: #F0F1F5;
+	 border-bottom-style: solid;
+	 border-width: 0.5px;
+	padding-left: 40px;
+}
+#eduContent2{
+	padding-top: 20px;
+	padding-left: 40px;
+	border-bottom-color: #F0F1F5;
+	border-bottom-style: solid;
+	border-width: 0.5px;
+}
+#eduContent3{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+#mapDiv{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
+#contactPanelBody{
+	padding-left: 40px;
+	height: 575px;
+}
+#contactMaps{
+	position: relative;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0; 
+width:100%;
+height: 100%;	
+}
+#contactTxtArea{
+	border-radius: 25px;
+}
+#contactSendMessage{
+	font-weight: bold;
+	border-radius: 25px;
+	border-color: #00BDBD
+}
+#contactSendMessage:hover{
+
+	background: #00BDBD;
+	color: white;
+	transition: 1s background-color;
+}
+#contactListDiv	ul li{
+
+	display: inline;
+	margin-right:45px;
+}
+
+.to-left {
+	transform:translateX(-100px); 
+     transition-duration: 1.0s;
+}
+
+.to-next {
+    padding-left: 80px; !important
+    
+}
+.verticalLine {
+     border-left: 1px solid rgba(204, 204, 204, 0.19);
+}
+
+}
+
